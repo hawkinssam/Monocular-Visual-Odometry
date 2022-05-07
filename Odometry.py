@@ -313,7 +313,7 @@ class OdometryClass:
             print('GT',gt[frame])
             print('Est',path[frame])
         
-        return path
+        return path, gt
         
 
 if __name__=="__main__":
